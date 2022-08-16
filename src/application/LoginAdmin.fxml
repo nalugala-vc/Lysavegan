@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="1013.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <left>
+      <AnchorPane prefHeight="525.0" prefWidth="451.0" style="-fx-background-color: DB5BF5;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="mylabel" layoutX="77.0" layoutY="150.0" text="Lysavegan Cupcakes">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="142.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cupcake%20logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="526.0" prefWidth="562.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="75.0" layoutY="374.0" mnemonicParsing="false" onAction="#loginAdm" prefHeight="56.0" prefWidth="196.0" style="-fx-background-color: #D59FE0;" styleClass="mybutton" text="login" />
+            <Button layoutX="315.0" layoutY="374.0" mnemonicParsing="false" onAction="#user" prefHeight="56.0" prefWidth="196.0" style="-fx-background-color: #EDC4F5;" styleClass="mybutton" text="employee?" />
+            <Label fx:id="username" layoutX="73.0" layoutY="162.0" text="Username" />
+            <Label fx:id="password" layoutX="75.0" layoutY="258.0" text="Password" />
+            <TextField fx:id="mytxt1" layoutX="185.0" layoutY="149.0" prefHeight="50.0" prefWidth="266.0" />
+            <PasswordField fx:id="mytxt2" layoutX="185.0" layoutY="241.0" prefHeight="50.0" prefWidth="266.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

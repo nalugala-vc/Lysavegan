@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.buyNow">
+   <left>
+      <AnchorPane prefHeight="525.0" prefWidth="127.0" style="-fx-background-color: DB5BF5;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="myhome" mnemonicParsing="false" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: DB5BF5;" text="Button" />
+            <Button fx:id="mymenu" layoutY="132.0" mnemonicParsing="false" onAction="#products" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: DB5BF5;" text="Button" />
+            <Button fx:id="mycart" layoutY="264.0" mnemonicParsing="false" onAction="#Cart" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: DB5BF5;" text="Button" />
+            <Button fx:id="myuser" layoutY="396.0" mnemonicParsing="false" onAction="#userprof" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: DB5BF5;" text="Button" />
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="39.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@homeicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="43.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bagicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="39.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@carticon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="39.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@usericon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="receipt" text="Receipt">
+                     <HBox.margin>
+                        <Insets left="50.0" top="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <AnchorPane fx:id="mypane" prefHeight="387.0" prefWidth="552.0">
+               <children>
+                  <Label fx:id="date" layoutX="29.0" layoutY="29.0" text="Date :" />
+                  <Label fx:id="served" layoutX="29.0" layoutY="79.0" text="Served by:" />
+                  <Label fx:id="titems" layoutX="29.0" layoutY="123.0" text="Total items:" />
+                  <Label fx:id="price" layoutX="30.0" layoutY="176.0" text="Price:" />
+                  <Label fx:id="discount" layoutX="29.0" layoutY="228.0" text="Discount:" />
+                  <Label fx:id="tprice" layoutX="29.0" layoutY="284.0" text="Total price:" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

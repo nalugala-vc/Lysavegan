@@ -1,0 +1,177 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Josefin+Sans&family=Just+Another+Hand&family=Pacifico&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
+#mylabel{
+	    -fx-font-family: 'Just Another Hand', cursive;
+		-fx-font-style: normal;
+		-fx-font-weight: 400;
+		-fx-font-size: 64px;
+		-fx-margin-left:5px;
+}
+#password{
+    -fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+	-fx-line-height: 26px;
+
+    -fx-text-fill: #DB5BF5;
+
+}
+
+#username{
+    -fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+	-fx-line-height: 26px;
+
+    -fx-text-fill: #DB5BF5;
+
+}
+#mytext1,#mytext2,#mytext3,#mytext4{
+     -fx-border-color:#DB5BF5;
+     -fx-border-width:0px 0px 2px 0px;
+     
+}
+.mybutton,#button2,#subb,#addd,#subb1,#addd1,#addd11{
+    -fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+	-fx-line-height: 26px;
+	
+	-fx-text-fill: #000000;
+	}
+
+#hello{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 36px;
+	
+}
+#special{
+    -fx-font-family: 'Josefin Sans';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 32px;
+	-fx-line-height: 32px;
+	
+	}
+#price{
+    -fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+	}
+
+#hlabel2,#hlabel1{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+	-fx-line-height: 26px;
+}
+#hbutton{
+	-fx-width: 196px;
+	-fx-height: 56px;
+	-fx-left: 185px;
+	-fx-top: 412px;
+	
+	-fx-background: #F5D0F7;
+	
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+	-fx-line-height: 26px;
+}
+#logolabel{
+	-fx-font-family: 'Just Another Hand';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 48px;
+	-fx-line-height: 48px;
+}
+#menu{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 36px;
+	-fx-line-height: 48px;
+}
+#l1,#l2,#l3,#l4,#l5,#l6,#l7,#l8,#l9
+,#ll1,#ll2,#ll3,#ll4,#ll5,#ll6,#ll7,#ll8,#ll9{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 14px;
+	-fx-line-height: 18px;
+}
+#orderdetails{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 40px;
+}
+#receipt{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 40px;
+}
+#discount,#price,#served,#titems,#tprice,#date,#items,#comm,#labl1,#labl2,#labl3,#labl4{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+
+	
+}
+#emplabl,#addnew,#products,#prof,#salee,#orderdetails,#bar{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 36px;
+}
+#mytable{
+	-fx-background: #DB5BF5;
+}
+#Lname,#Fname,#Age,#Username{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-style: normal;
+	-fx-font-weight: 400;
+	-fx-font-size: 20px;
+    -fx-text-fill: #DB5BF5;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

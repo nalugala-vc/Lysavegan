@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="1013.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Products">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="127.0" style="-fx-background-color: #DB5BF5;;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="empl" mnemonicParsing="false" onAction="#Viewemp" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: #DB5BF5;;" text="Button" />
+            <Button fx:id="profitss" layoutY="396.0" mnemonicParsing="false" onAction="#admdash" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: #DB5BF5;;" text="Button" />
+            <Button fx:id="prod" layoutY="132.0" mnemonicParsing="false" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: #DB5BF5;;" text="Button" />
+            <Button fx:id="sales" layoutY="264.0" mnemonicParsing="false" onAction="#sales" prefHeight="131.25" prefWidth="127.0" style="-fx-background-color: #DB5BF5;;" text="Button" />
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="40.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@manyusericon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="41.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sbagicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="40.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@moneyicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="41.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@walleticon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: ffffff;">
+               <children>
+                  <Label fx:id="products" text="Products">
+                     <HBox.margin>
+                        <Insets left="50.0" top="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <ScrollPane prefHeight="426.0" prefWidth="868.0" style="-fx-background-color: ffffff;">
+                     <content>
+                        <VBox fx:id="vpane" prefHeight="200.0" prefWidth="859.0" style="-fx-background-color: ffffff;" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
